@@ -1,0 +1,231 @@
+body{
+	 			margin: 0;
+	 			padding: 0;
+	 		}
+	 		#box1{
+	 			height: 100vh;
+	 			width: 100%;
+	 			color: white;
+	 			background-image: url(School/cover1.jpg);
+	 			background-size: cover;
+	 			display: table;
+	 			background-attachment: fixed;
+	 		}
+			
+			
+			#box1 ul{ 
+				list-style:none;
+				float:right;
+				
+			}
+			#box1 ul li{ 
+				display: inline;
+			}	
+			#box1 ul li a{ 
+				text-decoration: none;
+				color:white;
+				background-color: transparent;
+				margin:0px 0px 0px 0px;
+				padding:14px 20px 1px 15px;
+				font-size:18px;
+				border-top-right-radius:8px;
+				border-top-left-radius:8px;
+				float:left;
+			}	
+			##box1 ul li a:hover{
+				color:#08C;
+				
+			}
+			.nav{
+			margin:0px;
+			padding-left:400px;
+			float:right;
+			display:block;
+			}		
+			#logo{
+			margin:-80px;
+			margin-left:10px;
+			padding:0px;
+			float:left;
+			display:block;
+			}
+.search-box {
+  margin: 5px auto 0 auto;
+  position: relative;
+  width: -100px;
+  float:right;
+  padding-right:20px;
+}
+
+.search-box p {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #08C;
+  border-radius: 30px;
+  background: white;
+  transition: all 0.3s ease-out;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.4), inset 0 2px 1px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.search-box p:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 30px;
+  background: #08C;
+  border-radius: 30px;
+  transform: rotate(-45deg);
+  bottom: -23px;
+  right: -15px;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+.search-box input[type=text] {
+  width: 100%;
+  text-indent: 30px;
+  height: 100%;
+  border-radius: 30px;
+  border: none;
+  transition: all 0.3s ease-out;
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.search-box input[type=text]:focus {
+  outline: none;
+  border-radius: 30px;
+}
+
+.search-box p.expanded {
+  width: 230px;
+}
+
+.search-box p.expanded input[type=text] {
+  text-indent: 20px;
+}
+			
+			
+	 		#box2{
+	 			height: 100vh;
+	 			width: 100%;
+	 			color: black;
+	 			background-image: url(School/cover.jpg);
+	 			background-size: cover;
+	 			display: table;
+	 			background-attachment: fixed;
+	 		}
+			
+			
+		#des{
+			margin-top:50px;
+			padding:0px;
+			}
+		#info a{
+		text-decoration:none;
+		list-style:none;
+		font-size:20px;
+		color:#00FFFF;
+		}	
+			
+	 		#box3{
+	 			height: 100vh;
+	 			width: 100%;
+	 			background-image: url(School/cover2.jpg);
+	 			background-size: cover;
+	 			display: table;
+	 			background-attachment: fixed;
+	 		}
+		.jumbotron a{
+		list-style:none;
+		font-size:20px;
+		text-decoration:none;
+		color:#00FFFF;
+		position: relative;
+		}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.social {
+  position: fixed;
+  top: 20px;
+}
+.social ul {
+  padding: 0px;
+  -webkit-transform: translate(-270px, 0);
+  -moz-transform: translate(-270px, 0);
+  -ms-transform: translate(-270px, 0);
+  -o-transform: translate(-270px, 0);
+  transform: translate(-270px, 0);
+}
+.social ul li {
+  display: block;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.36);
+  width: 300px;
+  text-align: right;
+  padding: 10px;
+  -webkit-border-radius: 0 30px 30px 0;
+  -moz-border-radius: 0 30px 30px 0;
+  border-radius: 0 30px 30px 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li:hover {
+  -webkit-transform: translate(110px, 0);
+  -moz-transform: translate(110px, 0);
+  -ms-transform: translate(110px, 0);
+  -o-transform: translate(110px, 0);
+  transform: translate(110px, 0);
+  background: rgba(255, 255, 255, 0.4);
+}
+.social ul li:hover a {
+  color: #000;
+}
+.social ul li:hover i {
+  color: #fff;
+  background: red;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li i {
+  margin-left: 10px;
+  color: #000;
+  background: #fff;
+  padding: 15px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  background: #ffffff;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+
